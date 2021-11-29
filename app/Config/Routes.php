@@ -8,10 +8,10 @@ $routes = Services::routes();
 // Load the system's routing file first, so that the app and ENVIRONMENT
 // can override as needed.
 if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
-    require SYSTEMPATH . 'Config/Routes.php';
+	require SYSTEMPATH . 'Config/Routes.php';
 }
 
-/*
+/**
  * --------------------------------------------------------------------
  * Router Setup
  * --------------------------------------------------------------------
@@ -32,6 +32,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/coffeeshoplist', 'Pages::index');
+$routes->get('/maps', 'MapsController::index');
+$routes->get('/mahasiswa/detail/(:segment)', 'MahasiswaController::detail/$1');
+$routes->get('/mahasiswa/tambah', 'MahasiswaController::tambah');
+$routes->get('/mahasiswa/editmahasiswa/(:segment)', 'MahasiswaController::editmahasiswa/$1');
 
 /*
  * --------------------------------------------------------------------
@@ -47,5 +52,5 @@ $routes->get('/', 'Home::index');
  * needing to reload it.
  */
 if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
-    require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
+	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }

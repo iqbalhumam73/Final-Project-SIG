@@ -1,42 +1,42 @@
 <?php
 
-use CodeIgniter\Test\CIUnitTestCase;
-use CodeIgniter\Test\DatabaseTestTrait;
 use Tests\Support\Models\ExampleModel;
 
-/**
- * @internal
- */
-final class ExampleDatabaseTest extends CIUnitTestCase
+class ExampleDatabaseTest extends \Tests\Support\DatabaseTestCase
 {
-    use DatabaseTestTrait;
+	public function setUp(): void
+	{
+		parent::setUp();
 
-    public function testModelFindAll()
-    {
-        $model = new ExampleModel();
+		// Extra code to run before each test
+	}
 
-        // Get every row created by ExampleSeeder
-        $objects = $model->findAll();
+	public function testModelFindAll()
+	{
+		$model = new ExampleModel();
 
-        // Make sure the count is as expected
-        $this->assertCount(3, $objects);
-    }
+		// Get every row created by ExampleSeeder
+		$objects = $model->findAll();
 
-    public function testSoftDeleteLeavesRow()
-    {
-        $model = new ExampleModel();
-        $this->setPrivateProperty($model, 'useSoftDeletes', true);
-        $this->setPrivateProperty($model, 'tempUseSoftDeletes', true);
+		// Make sure the count is as expected
+		$this->assertCount(3, $objects);
+	}
 
-        $object = $model->first();
-        $model->delete($object->id);
+	public function testSoftDeleteLeavesRow()
+	{
+		$model = new ExampleModel();
+		$this->setPrivateProperty($model, 'useSoftDeletes', true);
+		$this->setPrivateProperty($model, 'tempUseSoftDeletes', true);
 
-        // The model should no longer find it
-        $this->assertNull($model->find($object->id));
+		$object = $model->first();
+		$model->delete($object->id);
 
-        // ... but it should still be in the database
-        $result = $model->builder()->where('id', $object->id)->get()->getResult();
+		// The model should no longer find it
+		$this->assertNull($model->find($object->id));
 
-        $this->assertCount(1, $result);
-    }
+		// ... but it should still be in the database
+		$result = $model->builder()->where('id', $object->id)->get()->getResult();
+
+		$this->assertCount(1, $result);
+	}
 }
