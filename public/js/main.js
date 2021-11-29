@@ -95,7 +95,7 @@ var sbycafegeojson = {
               "@id": "node/3205742107",
               "addr:city": "Surabaya",
               "addr:postcode": 60286,
-              "addr:street": "Jalan Dharmawangsa Dalam",
+              "addrstreet": "Jalan Dharmawangsa Dalam",
               "amenity": "cafe",
               "cuisine": "italian",
               "internet_access": "yes",
@@ -160,7 +160,7 @@ var sbycafegeojson = {
               "@id": "node/4188606200",
               "addr:city": "Bongkaran, Surabaya",
               "addr:postcode": 60161,
-              "addr:street": "Jalan Stasiun Kota",
+              "addrstreet": "Jalan Stasiun Kota",
               "amenity": "cafe",
               "name": "K1 Karaoke Lounge"
             },
@@ -180,7 +180,7 @@ var sbycafegeojson = {
               "addr:city": "Segoro Tambak, Sidoarjo, Surabaya, East Java",
               "addr:housenumber": "No.1, Terminal 1 Juanda International Airport",
               "addr:postcode": 61253,
-              "addr:street": "Jl. Ir. H. Juanda",
+              "addrstreet": "Jl. Ir. H. Juanda",
               "amenity": "cafe",
               "name": "Quickly"
             },
@@ -200,7 +200,7 @@ var sbycafegeojson = {
               "addr:city": "East Java, Surabaya",
               "addr:housenumber": "Nomor 161-165",
               "addr:postcode": 60236,
-              "addr:street": "Jalan Siwalankerto",
+              "addrstreet": "Jalan Siwalankerto",
               "amenity": "cafe",
               "name": "High Point Cafe Speciality"
             },
@@ -220,7 +220,7 @@ var sbycafegeojson = {
               "addr:city": "Gubeng",
               "addr:housenumber": "Nomor 40",
               "addr:postcode": 60281,
-              "addr:street": "Jalan Sumatera",
+              "addrstreet": "Jalan Sumatera",
               "amenity": "cafe",
               "name": "Historica Coffee & Pastry"
             },
@@ -240,7 +240,7 @@ var sbycafegeojson = {
               "addr:city": "Kota SBY, Jawa Timur, Indonesia",
               "addr:housenumber": 1,
               "addr:postcode": 64412,
-              "addr:street": "Jl. Semarang",
+              "addrstreet": "Jl. Semarang",
               "amenity": "cafe",
               "name": "Kedai kopi SINGGALANG"
             },
@@ -260,7 +260,7 @@ var sbycafegeojson = {
               "addr:city": "Tegalsari, Jawa Timur, Indonesia",
               "addr:housenumber": 25,
               "addr:postcode": 60261,
-              "addr:street": "Jalan Tegalsari",
+              "addrstreet": "Jalan Tegalsari",
               "amenity": "cafe",
               "cuisine": "regional;local;asian",
               "internet_access": "wlan",
@@ -283,7 +283,7 @@ var sbycafegeojson = {
               "@id": "node/4189063901",
               "addr:city": "Keputran, Tegalsari, Surabaya",
               "addr:postcode": 60265,
-              "addr:street": "Jalan Mojopahit",
+              "addrstreet": "Jalan Mojopahit",
               "amenity": "cafe",
               "name": "Autonet"
             },
@@ -303,7 +303,7 @@ var sbycafegeojson = {
               "addr:city": "Manyar Sabrangan, Surabaya, Jawa Timur, Indonesia",
               "addr:housenumber": 411,
               "addr:postcode": 60115,
-              "addr:street": "Jalan Kertajaya Indah Tengah V",
+              "addrstreet": "Jalan Kertajaya Indah Tengah V",
               "amenity": "cafe",
               "name": "Konig"
             },
@@ -322,7 +322,7 @@ var sbycafegeojson = {
               "@id": "node/4190997489",
               "addr:city": "Darmo, Wonokromo, Surabaya, Jawa Timur, Indonesia",
               "addr:postcode": 60241,
-              "addr:street": "Jalan Boulevard Indah",
+              "addrstreet": "Jalan Boulevard Indah",
               "amenity": "cafe",
               "internet_access": "wlan",
               "name": "Kudos Cafe",
@@ -346,7 +346,7 @@ var sbycafegeojson = {
               "addr:city": "Menur Pumpungan, Sukolilo, Surabaya, East Java",
               "addr:housenumber": "No.53D",
               "addr:postcode": 60118,
-              "addr:street": "Jalan Raya Manyar",
+              "addrstreet": "Jalan Raya Manyar",
               "amenity": "cafe",
               "name": "Sapi Milk"
             },
@@ -366,7 +366,7 @@ var sbycafegeojson = {
               "addr:city": "RT.002/RW.05, Gubeng, Kota Surabaya, Jawa Timur, Indonesia",
               "addr:housenumber": 31,
               "addr:postcode": 60281,
-              "addr:street": "Jalan Sumatra",
+              "addrstreet": "Jalan Sumatra",
               "amenity": "cafe",
               "name": "Layali Shisha Cafe and Lounge"
             },
@@ -386,7 +386,7 @@ var sbycafegeojson = {
               "addr:city": "Tegalsari, Dr. Sutomo, Surabaya",
               "addr:housenumber": "No.79",
               "addr:postcode": 60264,
-              "addr:street": "Jl. Untung Suropati",
+              "addrstreet": "Jl. Untung Suropati",
               "amenity": "cafe",
               "name": "Blackbarn Coffee"
             },
@@ -406,7 +406,7 @@ var sbycafegeojson = {
               "addr:city": "Tegalsari, Kota SBY, Jawa Timur",
               "addr:housenumber": 2,
               "addr:postcode": 60262,
-              "addr:street": "Jalan Pregolan",
+              "addrstreet": "Jalan Pregolan",
               "amenity": "cafe",
               "cuisine": "sandwich;breakfast;ice_cream;cake;coffee_shop",
               "internet_access": "wlan",
@@ -430,7 +430,7 @@ var sbycafegeojson = {
               "addr:city": "Tandes, Sukomanunggal, Jawa Timur",
               "addr:housenumber": 2,
               "addr:postcode": 60184,
-              "addr:street": "Jalan Sukomanunggal Jaya Blok YL",
+              "addrstreet": "Jalan Sukomanunggal Jaya Blok YL",
               "amenity": "cafe",
               "name": "Libby cafe"
             },
@@ -449,7 +449,7 @@ var sbycafegeojson = {
               "@id": "node/4191179831",
               "addr:city": "Baratajaya, Gubeng, Surabaya, East Java",
               "addr:postcode": 60284,
-              "addr:street": "Jl. Raya Nginden No.72-A",
+              "addrstreet": "Jl. Raya Nginden No.72-A",
               "amenity": "cafe",
               "name": "Cafe Glass"
             },
@@ -469,7 +469,7 @@ var sbycafegeojson = {
               "addr:city": "Genteng, Ketabang, Surabaya",
               "addr:housenumber": "67 - 69",
               "addr:postcode": 60272,
-              "addr:street": "Jalan Walikota Mustajab",
+              "addrstreet": "Jalan Walikota Mustajab",
               "alt_name": "Calibre Coffee Roasters",
               "amenity": "cafe",
               "cuisine": "savory_pancakes;tea;cake;pasta;pancake;sandwich;breakfast;international;coffee_shop",
@@ -502,7 +502,7 @@ var sbycafegeojson = {
               "@id": "node/4191236894",
               "addr:city": "Sawahan, Surabaya",
               "addr:postcode": 60251,
-              "addr:street": "Jalan Anjasmoro",
+              "addrstreet": "Jalan Anjasmoro",
               "amenity": "cafe",
               "name": "Caturra Espresso"
             },
@@ -521,7 +521,7 @@ var sbycafegeojson = {
               "@id": "node/4191388843",
               "addr:city": "Keputran, Tegalsari, Surabaya",
               "addr:postcode": 60265,
-              "addr:street": "Jl. Tumapael 33",
+              "addrstreet": "Jl. Tumapael 33",
               "amenity": "cafe",
               "name": "Coffeezone"
             },
@@ -540,7 +540,7 @@ var sbycafegeojson = {
               "@id": "node/4191391086",
               "addr:city": "Klampis Ngasem, Sukolilo, Surabaya",
               "addr:postcode": 60117,
-              "addr:street": "Jl. Klampis Jaya",
+              "addrstreet": "Jl. Klampis Jaya",
               "amenity": "cafe",
               "name": "Coffee Toffee"
             },
@@ -560,7 +560,7 @@ var sbycafegeojson = {
               "addr:city": "Manyar Sabrangan, Surabaya, Jawa Timur, Indonesia",
               "addr:housenumber": "No. 24",
               "addr:postcode": 60115,
-              "addr:street": "Jalan Kertajaya Indah Tengah",
+              "addrstreet": "Jalan Kertajaya Indah Tengah",
               "amenity": "cafe",
               "name": "Communal"
             },
@@ -580,7 +580,7 @@ var sbycafegeojson = {
               "addr:city": "Pradahkali Kendal, Dukuh Pakis, Kota SBY, Jawa Timur, Indonesia",
               "addr:housenumber": 38,
               "addr:postcode": 60226,
-              "addr:street": "Jl. Raya Darmo Permai I",
+              "addrstreet": "Jl. Raya Darmo Permai I",
               "amenity": "cafe",
               "name": "Monopole Coffee Lab"
             },
@@ -600,7 +600,7 @@ var sbycafegeojson = {
               "addr:city": "Ketintang, Gayungan, Surabaya",
               "addr:housenumber": "No. 88",
               "addr:postcode": 60231,
-              "addr:street": "Jalan Ahmad Yani",
+              "addrstreet": "Jalan Ahmad Yani",
               "amenity": "cafe",
               "brand": "Starbucks",
               "brand:wikidata": "Q37158",
@@ -627,7 +627,7 @@ var sbycafegeojson = {
               "addr:city": "Mulyorejo, Surabaya, East Java",
               "addr:housenumber": "No.35-39",
               "addr:postcode": 60115,
-              "addr:street": "Jl. Dr. Ir. H. Soekarno",
+              "addrstreet": "Jl. Dr. Ir. H. Soekarno",
               "amenity": "cafe",
               "brand": "Starbucks",
               "brand:wikidata": "Q37158",
@@ -654,7 +654,7 @@ var sbycafegeojson = {
               "addr:city": "Pakis, Surabaya, East Java",
               "addr:housenumber": "No. 87",
               "addr:postcode": 60225,
-              "addr:street": "JL. Mayor Jenderal Sungkono",
+              "addrstreet": "JL. Mayor Jenderal Sungkono",
               "amenity": "cafe",
               "brand": "Starbucks",
               "brand:wikidata": "Q37158",
@@ -681,7 +681,7 @@ var sbycafegeojson = {
               "addr:city": "Darmo, Wonokromo, Surabaya, East Java",
               "addr:housenumber": "No.2",
               "addr:postcode": 60241,
-              "addr:street": "Jl. Juwono",
+              "addrstreet": "Jl. Juwono",
               "amenity": "cafe",
               "name": "Stilrod Cycle Shop"
             },
@@ -700,7 +700,7 @@ var sbycafegeojson = {
               "@id": "node/4192787118",
               "addr:city": "Ngagelrejo, Wonokromo, Surabaya",
               "addr:postcode": 60245,
-              "addr:street": "Jl. Ngagel Redjo",
+              "addrstreet": "Jl. Ngagel Redjo",
               "amenity": "cafe",
               "name": "STMJ Bu Nunuk Pojok Ngagel"
             },
@@ -719,7 +719,7 @@ var sbycafegeojson = {
               "@id": "node/4192849887",
               "addr:city": "Bungurasih, Waru, Sidoarjo",
               "addr:postcode": 61256,
-              "addr:street": "Jalan Bungurasih Blok Ramayana",
+              "addrstreet": "Jalan Bungurasih Blok Ramayana",
               "amenity": "cafe",
               "name": "Dunkin' Donuts Bunguran"
             },
@@ -738,7 +738,7 @@ var sbycafegeojson = {
               "@id": "node/4192852886",
               "addr:city": "Pacar Keling, Tambaksari, Surabaya, East Java",
               "addr:postcode": 60131,
-              "addr:street": "Jl. Stasiun Gubeng",
+              "addrstreet": "Jl. Stasiun Gubeng",
               "amenity": "cafe",
               "name": "Dunkin' Donut"
             },
@@ -758,7 +758,7 @@ var sbycafegeojson = {
               "addr:city": "Pacar Keling, Tambaksari, Surabaya, East Java",
               "addr:housenumber": "No.2",
               "addr:postcode": 60131,
-              "addr:street": "Jl. Gubeng Masjid",
+              "addrstreet": "Jl. Gubeng Masjid",
               "amenity": "cafe",
               "name": "Surabaya CAFÈ"
             },
@@ -777,7 +777,7 @@ var sbycafegeojson = {
               "@id": "node/4193058429",
               "addr:city": "Mulyorejo, Surabaya",
               "addr:postcode": 60115,
-              "addr:street": "Galaxy Mall - Management - Office Lantai I No. 112, JL. Dharma Husada Indah Timur, No. 37",
+              "addrstreet": "Galaxy Mall - Management - Office Lantai I No. 112, JL. Dharma Husada Indah Timur, No. 37",
               "amenity": "cafe",
               "name": "Excelso"
             },
@@ -797,7 +797,7 @@ var sbycafegeojson = {
               "addr:city": "emur Wonosari, Rungkut, Surabaya",
               "addr:housenumber": "No.80",
               "addr:postcode": 60237,
-              "addr:street": "Jl. Raya Kendangsari",
+              "addrstreet": "Jl. Raya Kendangsari",
               "amenity": "cafe",
               "name": "Feliz Guest House & Cafe"
             },
@@ -816,7 +816,7 @@ var sbycafegeojson = {
               "@id": "node/4193187205",
               "addr:city": "Mulyorejo, Surabaya, East Java",
               "addr:postcode": 60115,
-              "addr:street": "Jl. Wisma Permai 1",
+              "addrstreet": "Jl. Wisma Permai 1",
               "amenity": "cafe",
               "name": "Teras Rumah Cafe"
             },
@@ -835,7 +835,7 @@ var sbycafegeojson = {
               "@id": "node/4193209039",
               "addr:city": "Pakis, Surabaya, East Java",
               "addr:postcode": 60225,
-              "addr:street": "JL. Mayjend Sungkono",
+              "addrstreet": "JL. Mayjend Sungkono",
               "amenity": "cafe",
               "brand": "The Coffee Bean & Tea Leaf",
               "brand:wikidata": "Q1141384",
@@ -860,7 +860,7 @@ var sbycafegeojson = {
               "addr:city": "Dr. Sutomo, Tegalsari, Surabaya",
               "addr:housenumber": "No.63",
               "addr:postcode": 60264,
-              "addr:street": "Jl. Untung Suropati",
+              "addrstreet": "Jl. Untung Suropati",
               "amenity": "cafe",
               "name": "Too Too Moo Patisserie"
             },
@@ -899,7 +899,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 15,
               "addr:postcode": 60271,
-              "addr:street": "Jalan Yos Sudarso",
+              "addrstreet": "Jalan Yos Sudarso",
               "amenity": "cafe",
               "name": "Zangrandi, Ice Cream"
             },
@@ -919,7 +919,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": "101 - 103",
               "addr:postcode": 60256,
-              "addr:street": "Jalan Mayjend. Sungkono",
+              "addrstreet": "Jalan Mayjend. Sungkono",
               "amenity": "cafe",
               "name": "The Avenue Lounge Bar"
             },
@@ -939,7 +939,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": "25 C",
               "addr:postcode": 60117,
-              "addr:street": "Jl. Klampis Jaya",
+              "addrstreet": "Jl. Klampis Jaya",
               "amenity": "cafe",
               "name": "Kedai Kopi (Keiko)"
             },
@@ -959,7 +959,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 71,
               "addr:postcode": 60237,
-              "addr:street": "Jalan Jemur Sari",
+              "addrstreet": "Jalan Jemur Sari",
               "amenity": "cafe",
               "name": "De mandailing Cafe n Eatery Jemur Sari"
             },
@@ -978,7 +978,7 @@ var sbycafegeojson = {
               "@id": "node/4260143149",
               "addr:city": "Surabaya",
               "addr:postcode": 60284,
-              "addr:street": "Jalan Krukah Timur",
+              "addrstreet": "Jalan Krukah Timur",
               "amenity": "cafe",
               "name": "Otoclassic Cafe"
             },
@@ -998,7 +998,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 30,
               "addr:postcode": 60245,
-              "addr:street": "Jalan Bung Tomo",
+              "addrstreet": "Jalan Bung Tomo",
               "amenity": "cafe",
               "name": "GR Café (Gue Rasa ini Café)"
             },
@@ -1018,7 +1018,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 6,
               "addr:postcode": 60246,
-              "addr:street": "Jalan Bung Tomo",
+              "addrstreet": "Jalan Bung Tomo",
               "amenity": "cafe",
               "name": "One Dollar Cafe"
             },
@@ -1038,7 +1038,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 93,
               "addr:postcode": 60285,
-              "addr:street": "Jalan Menur",
+              "addrstreet": "Jalan Menur",
               "amenity": "cafe",
               "name": "Kafe Panorama"
             },
@@ -1058,7 +1058,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 5,
               "addr:postcode": 60246,
-              "addr:street": "Jalan Bawean",
+              "addrstreet": "Jalan Bawean",
               "amenity": "cafe",
               "name": "Shae Cafe and Eatery"
             },
@@ -1076,7 +1076,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/4270975190",
               "addr:housenumber": 4,
-              "addr:street": "Jalan Pregolan",
+              "addrstreet": "Jalan Pregolan",
               "amenity": "cafe",
               "cuisine": "sandwich;tea;cake;coffee_shop;asian;american;pasta;pizza",
               "internet_access": "wlan",
@@ -1113,7 +1113,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/4342496192",
               "addr:postcode": 60296,
-              "addr:street": "Wonorejo",
+              "addrstreet": "Wonorejo",
               "amenity": "cafe",
               "internet_access": "wlan",
               "name": "Warkop Damai"
@@ -1175,7 +1175,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/4378996689",
-              "addr:street": "jl.ketintang II",
+              "addrstreet": "jl.ketintang II",
               "amenity": "cafe",
               "name": "Giras 77",
               "opening_hours": "Mo-Su 07:00-00:00"
@@ -1339,7 +1339,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/4599296300",
               "addr:housenumber": 11,
-              "addr:street": "Taman puspa raya",
+              "addrstreet": "Taman puspa raya",
               "amenity": "cafe",
               "contact:facebook": "https://www.facebook.com/gatherinc/",
               "contact:instagram": "https://www.instagram.com/gatherinc/",
@@ -1427,7 +1427,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/4631787161",
               "addr:city": "Sidoarjo",
-              "addr:street": "Jalan Jendral Ahmad Yani",
+              "addrstreet": "Jalan Jendral Ahmad Yani",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "yes",
@@ -1450,7 +1450,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/4701193190",
               "addr:housenumber": "NC 6",
-              "addr:street": "Jalan Dr. Ir. H. Soekarno",
+              "addrstreet": "Jalan Dr. Ir. H. Soekarno",
               "amenity": "cafe",
               "internet_access": "wlan",
               "name": "Coffee Estatindo",
@@ -1470,7 +1470,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/4721430069",
               "addr:city": "Sukorame",
-              "addr:street": "Jalan Dokter Wahidin Sudirohusodo",
+              "addrstreet": "Jalan Dokter Wahidin Sudirohusodo",
               "name": "Warkop Pak Dhi",
               "amenity": "cafe"
             },
@@ -1487,7 +1487,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/4721430071",
-              "addr:street": "Jalan Jaksa Agung Suprapto",
+              "addrstreet": "Jalan Jaksa Agung Suprapto",
               "amenity": "cafe",
               "name": "warung spensa"
             },
@@ -1520,7 +1520,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/4721430073",
-              "addr:street": "Jalan Jaksa Agung Suprapto",
+              "addrstreet": "Jalan Jaksa Agung Suprapto",
               "amenity": "cafe",
               "name": "Warung APJ"
             },
@@ -1537,7 +1537,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/4721430074",
-              "addr:street": "Jalan Jaksa Agung Suprapto",
+              "addrstreet": "Jalan Jaksa Agung Suprapto",
               "amenity": "cafe",
               "name": "Warung Kopi PDI"
             },
@@ -1579,7 +1579,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/4745225123",
-              "addr:street": "Jalan Jenderal Basuki Rachmat",
+              "addrstreet": "Jalan Jenderal Basuki Rachmat",
               "amenity": "cafe",
               "name": "Coyote"
             },
@@ -1680,7 +1680,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/4824490649",
               "addr:city": "Surabaya",
-              "addr:street": "Jalan Bukit Darmo Boulevard",
+              "addrstreet": "Jalan Bukit Darmo Boulevard",
               "amenity": "cafe",
               "brand": "Starbucks",
               "brand:wikidata": "Q37158",
@@ -1801,7 +1801,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/4965692721",
-              "addr:street": "Jalan Embong Blimbing",
+              "addrstreet": "Jalan Embong Blimbing",
               "amenity": "cafe",
               "cuisine": "indonesian",
               "name": "Depot 20",
@@ -1872,7 +1872,7 @@ var sbycafegeojson = {
               "@id": "node/5276657698",
               "addr:city": "Surabaya",
               "addr:postcode": 60227,
-              "addr:street": "Jalan Boulevard Famili Selatan",
+              "addrstreet": "Jalan Boulevard Famili Selatan",
               "amenity": "cafe",
               "internet_access": "no",
               "name": "Tea Presso"
@@ -1943,7 +1943,7 @@ var sbycafegeojson = {
               "@id": "node/5330637022",
               "addr:housenumber": "no 38",
               "addr:postcode": 60115,
-              "addr:street": "Jalan Dharmahusada Indah II",
+              "addrstreet": "Jalan Dharmahusada Indah II",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -2037,7 +2037,7 @@ var sbycafegeojson = {
               "@id": "node/5690483204",
               "addr:city": "Surabaya",
               "addr:housenumber": 33,
-              "addr:street": "Jalan Pasar Turi",
+              "addrstreet": "Jalan Pasar Turi",
               "amenity": "cafe",
               "description": "Agen Sbobet dan daftar PIALA DUNIA 2018 terbaik dengan BONUS besar",
               "internet_access": "yes",
@@ -2570,7 +2570,7 @@ var sbycafegeojson = {
               "@id": "node/6363976422",
               "addr:city": "Klampis Ngasem, Sukolilo, Surabaya",
               "addr:postcode": 60117,
-              "addr:street": "Jalan Arief Rahman Hakim",
+              "addrstreet": "Jalan Arief Rahman Hakim",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warung Polisi (Warpol)",
@@ -2593,7 +2593,7 @@ var sbycafegeojson = {
               "addr:city": "Menur Pumpungan, Sukolilo, Surabaya, East Java",
               "addr:housenumber": "No.33",
               "addr:postcode": 60118,
-              "addr:street": "Jalan Menur Pumpungan",
+              "addrstreet": "Jalan Menur Pumpungan",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "coffy toffy manyar",
@@ -2692,7 +2692,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/6681993566",
-              "addr:street": "Jalan Opak",
+              "addrstreet": "Jalan Opak",
               "air_conditioning": "yes",
               "alt_name": "Thirty Three Brew",
               "amenity": "cafe",
@@ -2875,7 +2875,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 38,
               "addr:postcode": 60118,
-              "addr:street": "Jalan Nginden Semolo",
+              "addrstreet": "Jalan Nginden Semolo",
               "amenity": "cafe",
               "cuisine": "coffee_shop;coffee;drinks",
               "internet_access": "yes",
@@ -2964,7 +2964,7 @@ var sbycafegeojson = {
               "@id": "node/7111723185",
               "addr:housenumber": 250,
               "addr:postcode": 60151,
-              "addr:street": "Jalan KH Mas Mansyur",
+              "addrstreet": "Jalan KH Mas Mansyur",
               "amenity": "cafe",
               "cuisine": "burger;cake;fish;kebab;coffee_shop;arab",
               "internet_access": "wlan",
@@ -2985,7 +2985,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7113437686",
-              "addr:street": "Jalan Pandegiling",
+              "addrstreet": "Jalan Pandegiling",
               "amenity": "cafe",
               "internet_access": "wlan",
               "name": "Warkop Wali",
@@ -3005,7 +3005,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7113750385",
               "addr:housenumber": "73G",
-              "addr:street": "Jalan Embong Malang",
+              "addrstreet": "Jalan Embong Malang",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3025,7 +3025,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7116217285",
-              "addr:street": "Jalan Dinoyo Baru",
+              "addrstreet": "Jalan Dinoyo Baru",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop;local",
               "name": "Warkop Cak Man",
@@ -3046,7 +3046,7 @@ var sbycafegeojson = {
               "@id": "node/7116217485",
               "addr:housenumber": 19,
               "addr:postcode": 60264,
-              "addr:street": "Jalan Imam Bonjol",
+              "addrstreet": "Jalan Imam Bonjol",
               "amenity": "cafe",
               "cuisine": "friture;cake;donut;coffee_shop",
               "name": "Warkop Koramil - Pak Tono",
@@ -3066,7 +3066,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7116279985",
-              "addr:street": "Jalan Pecindilan II",
+              "addrstreet": "Jalan Pecindilan II",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Pojok Pasar Pecindilan",
@@ -3085,7 +3085,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7116874685",
-              "addr:street": "Jalan Imam Bonjol",
+              "addrstreet": "Jalan Imam Bonjol",
               "amenity": "cafe",
               "cuisine": "indonesian",
               "name": "Warung Pojok Rawon Lodeh Bali",
@@ -3104,7 +3104,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118511485",
-              "addr:street": "Jalan Embong Sawo",
+              "addrstreet": "Jalan Embong Sawo",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3124,7 +3124,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118528786",
-              "addr:street": "Jalan Keputran",
+              "addrstreet": "Jalan Keputran",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop SJDW",
@@ -3143,7 +3143,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118536585",
-              "addr:street": "Jalan Argopuro",
+              "addrstreet": "Jalan Argopuro",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Cak Man",
@@ -3162,7 +3162,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118537685",
-              "addr:street": "Jalan Jenderal Basuki Rachmat",
+              "addrstreet": "Jalan Jenderal Basuki Rachmat",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Cak Min",
@@ -3181,7 +3181,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118541285",
-              "addr:street": "Jalan Lemah Putro III",
+              "addrstreet": "Jalan Lemah Putro III",
               "amenity": "cafe",
               "name": "Warkop Mbak Mar",
               "opening_hours": "Mo-Sa 06:00-18:00"
@@ -3199,7 +3199,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118541286",
-              "addr:street": "Kayun",
+              "addrstreet": "Kayun",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop PakDe Yanto",
@@ -3218,7 +3218,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118551585",
-              "addr:street": "Jalan Jenderal Urip Sumoharjo",
+              "addrstreet": "Jalan Jenderal Urip Sumoharjo",
               "amenity": "cafe",
               "name": "Warkop Pojok",
               "opening_hours": "Mo-Su 06:00-21:00"
@@ -3237,7 +3237,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7118651185",
               "addr:housenumber": 7,
-              "addr:street": "Jalan Simpang Dukuh",
+              "addrstreet": "Jalan Simpang Dukuh",
               "amenity": "cafe",
               "cuisine": "deli;tea;cake;asian;beef_bowl;coffee_shop",
               "name": "Warkop Pak No Simpang Dukuh",
@@ -3256,7 +3256,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118681890",
-              "addr:street": "Jalan Genteng Bandar Lor",
+              "addrstreet": "Jalan Genteng Bandar Lor",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Pak Imam",
@@ -3275,7 +3275,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118694885",
-              "addr:street": "Jalan Genteng Besar",
+              "addrstreet": "Jalan Genteng Besar",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Dewo",
@@ -3294,7 +3294,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7118937485",
-              "addr:street": "Jalan Dinoyo",
+              "addrstreet": "Jalan Dinoyo",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop WK",
@@ -3313,7 +3313,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7119524187",
-              "addr:street": "Jalan Bintoro",
+              "addrstreet": "Jalan Bintoro",
               "amenity": "cafe",
               "cuisine": "tea;friture;diner;cake;coffee_shop;local",
               "name": "Warung Cak Mis",
@@ -3333,7 +3333,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7120599687",
               "addr:housenumber": 98,
-              "addr:street": "Jalan Sidotopo Kidul",
+              "addrstreet": "Jalan Sidotopo Kidul",
               "amenity": "cafe",
               "name": "Giras 98",
               "opening_hours": "Mo-Su 05:00-18:00"
@@ -3352,7 +3352,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7120670685",
               "addr:housenumber": 46,
-              "addr:street": "Jalan KH Mas Mansyur I",
+              "addrstreet": "Jalan KH Mas Mansyur I",
               "amenity": "cafe",
               "cuisine": "friture;cake;coffee_shop",
               "internet_access": "wlan",
@@ -3372,7 +3372,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7120693486",
-              "addr:street": "Jalan Pabean Koelon 5",
+              "addrstreet": "Jalan Pabean Koelon 5",
               "amenity": "cafe",
               "cuisine": "friture;cake;coffee_shop",
               "name": "Warkop Rempah",
@@ -3391,7 +3391,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7120720686",
-              "addr:street": "Jalan KH Mas Mansyur",
+              "addrstreet": "Jalan KH Mas Mansyur",
               "amenity": "cafe",
               "cuisine": "friture;donut;coffee_shop",
               "name": "Warkop Keliling Cak Muhari",
@@ -3411,7 +3411,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7120741785",
-              "addr:street": "Jalan Gambir",
+              "addrstreet": "Jalan Gambir",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Cak Ran",
@@ -3430,7 +3430,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7120742785",
-              "addr:street": "Jalan Songoyudan",
+              "addrstreet": "Jalan Songoyudan",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Elita",
@@ -3450,7 +3450,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7120746985",
-              "addr:street": "Jalan Pabean Utara",
+              "addrstreet": "Jalan Pabean Utara",
               "amenity": "cafe",
               "cuisine": "friture;cake;curry;coffee_shop",
               "name": "Warkop Maimunah",
@@ -3470,7 +3470,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7120970085",
-              "addr:street": "Ketapang III",
+              "addrstreet": "Ketapang III",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Cak Syaiful",
@@ -3491,7 +3491,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7121027485",
               "addr:housenumber": 10,
-              "addr:street": "Jalan Kertopaten",
+              "addrstreet": "Jalan Kertopaten",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3512,7 +3512,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7121430685",
               "addr:housenumber": 86,
-              "addr:street": "Jalan Kapasan",
+              "addrstreet": "Jalan Kapasan",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Cak Hadi",
@@ -3531,7 +3531,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7123664986",
-              "addr:street": "Jalan Brawijaya",
+              "addrstreet": "Jalan Brawijaya",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Sis",
@@ -3551,7 +3551,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7123677288",
-              "addr:street": "Jalan Raya Wiyung",
+              "addrstreet": "Jalan Raya Wiyung",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Giras Gresik",
@@ -3571,7 +3571,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7123730485",
               "addr:housenumber": 64,
-              "addr:street": "Jalan Trunojoyo",
+              "addrstreet": "Jalan Trunojoyo",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Halik",
@@ -3591,7 +3591,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7123743685",
-              "addr:street": "Jalan Lamongan",
+              "addrstreet": "Jalan Lamongan",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Dilla",
@@ -3611,7 +3611,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7123793185",
-              "addr:street": "Jalan Walikota Mustajab",
+              "addrstreet": "Jalan Walikota Mustajab",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warjo Pak Pur",
@@ -3631,7 +3631,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7123820385",
-              "addr:street": "Jalan Jaksa Agung Suprapto",
+              "addrstreet": "Jalan Jaksa Agung Suprapto",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Ardi",
@@ -3651,7 +3651,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7125233785",
-              "addr:street": "Jalan Raya Menur",
+              "addrstreet": "Jalan Raya Menur",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Ramonez"
@@ -3670,7 +3670,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7125258886",
               "addr:housenumber": 19,
-              "addr:street": "Pacar Keling VII",
+              "addrstreet": "Pacar Keling VII",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "diet:vegetarian": "yes",
@@ -3691,7 +3691,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7125275785",
-              "addr:street": "Jalan Pacarkeling Gang V",
+              "addrstreet": "Jalan Pacarkeling Gang V",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "diet:vegetarian": "yes",
@@ -3712,7 +3712,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7126114385",
-              "addr:street": "Jalan Kebalen Timur",
+              "addrstreet": "Jalan Kebalen Timur",
               "amenity": "cafe",
               "cuisine": "tea;friture;coffee_shop",
               "name": "Warkop Bahagia",
@@ -3732,7 +3732,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7127411885",
               "addr:housenumber": "2b",
-              "addr:street": "Jalan Tambak Arum III",
+              "addrstreet": "Jalan Tambak Arum III",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Pak Ri",
@@ -3752,7 +3752,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7127632386",
               "addr:housenumber": 51,
-              "addr:street": "Jalan Ngaglik",
+              "addrstreet": "Jalan Ngaglik",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Yani",
@@ -3772,7 +3772,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7127639686",
-              "addr:street": "Jalan Teluk Betung",
+              "addrstreet": "Jalan Teluk Betung",
               "amenity": "cafe",
               "cuisine": "tea;friture;coffee_shop",
               "name": "Warkop Pojok",
@@ -3791,7 +3791,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7127669786",
-              "addr:street": "Jalan Juwet",
+              "addrstreet": "Jalan Juwet",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Cak Arifin",
@@ -3811,7 +3811,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7128474688",
               "addr:housenumber": 33,
-              "addr:street": "Jalan Cimanuk",
+              "addrstreet": "Jalan Cimanuk",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "internet_access": "wlan",
@@ -3832,7 +3832,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7128509285",
               "addr:housenumber": 35,
-              "addr:street": "Jalan Cimanuk",
+              "addrstreet": "Jalan Cimanuk",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Sewelas",
@@ -3851,7 +3851,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7129729385",
-              "addr:street": "Jalan Manukan Tama",
+              "addrstreet": "Jalan Manukan Tama",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Punjul Roso"
@@ -3869,7 +3869,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7129737185",
-              "addr:street": "Jalan Balongsari Blok 3",
+              "addrstreet": "Jalan Balongsari Blok 3",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3889,7 +3889,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7129752585",
-              "addr:street": "Jalan Balongsari Blok 3",
+              "addrstreet": "Jalan Balongsari Blok 3",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3908,7 +3908,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7129752685",
-              "addr:street": "Jalan Balongsari Blok 3",
+              "addrstreet": "Jalan Balongsari Blok 3",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3927,7 +3927,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7130137889",
-              "addr:street": "Jalan Pandegiling",
+              "addrstreet": "Jalan Pandegiling",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3947,7 +3947,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7132301585",
               "addr:housenumber": 120,
-              "addr:street": "Jalan Tenggilis Mejoyo",
+              "addrstreet": "Jalan Tenggilis Mejoyo",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Gorip",
@@ -3968,7 +3968,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7132325185",
               "addr:housenumber": 2,
-              "addr:street": "Jalan Rungkut Asri Utara II",
+              "addrstreet": "Jalan Rungkut Asri Utara II",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -3988,7 +3988,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7132340585",
-              "addr:street": "Jalan Rungkut Asri Utara II",
+              "addrstreet": "Jalan Rungkut Asri Utara II",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Pojok Pasar Soponyono",
@@ -4008,7 +4008,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7132389485",
               "addr:housenumber": 21,
-              "addr:street": "Jalan Jemursari",
+              "addrstreet": "Jalan Jemursari",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Kopi Selir"
@@ -4026,7 +4026,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7132454786",
-              "addr:street": "Jalan Stasiun Wonokromo",
+              "addrstreet": "Jalan Stasiun Wonokromo",
               "amenity": "cafe",
               "cuisine": "friture;cake;donut;coffee_shop",
               "name": "Warkop Barokah",
@@ -4045,7 +4045,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7132460490",
-              "addr:street": "Jalan Jagir Wonokromo Wetan",
+              "addrstreet": "Jalan Jagir Wonokromo Wetan",
               "amenity": "cafe",
               "cuisine": "friture;donut;coffee_shop",
               "name": "Warkop Farid",
@@ -4064,7 +4064,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134705285",
-              "addr:street": "Jalan Wonorejo III",
+              "addrstreet": "Jalan Wonorejo III",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Kusni"
@@ -4082,7 +4082,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134746985",
-              "addr:street": "Ronggowarsito Tengah",
+              "addrstreet": "Ronggowarsito Tengah",
               "amenity": "cafe",
               "cuisine": "curry;coffee_shop",
               "name": "Warkop Ronggowarsito"
@@ -4100,7 +4100,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134748285",
-              "addr:street": "Jalan Yoso Dipuro",
+              "addrstreet": "Jalan Yoso Dipuro",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Satu Titik Coffee",
@@ -4119,7 +4119,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134751586",
-              "addr:street": "Jalan Kembang Kuning",
+              "addrstreet": "Jalan Kembang Kuning",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Pojok Cak Gondol",
@@ -4138,7 +4138,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134772985",
-              "addr:street": "Jalan Kanwa",
+              "addrstreet": "Jalan Kanwa",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Kanwa",
@@ -4157,7 +4157,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134773085",
-              "addr:street": "Jalan Dokter Sutomo",
+              "addrstreet": "Jalan Dokter Sutomo",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "internet_access": "wlan",
@@ -4177,7 +4177,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134773185",
-              "addr:street": "Jalan Dr. Wahidin",
+              "addrstreet": "Jalan Dr. Wahidin",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Subekti",
@@ -4197,7 +4197,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134840685",
-              "addr:street": "Keputih II",
+              "addrstreet": "Keputih II",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop & Selep Ibu Supini",
@@ -4217,7 +4217,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7134843686",
-              "addr:street": "Gang Boto Putih",
+              "addrstreet": "Gang Boto Putih",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -4237,7 +4237,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7137828085",
-              "addr:street": "Jalan Kalijudan",
+              "addrstreet": "Jalan Kalijudan",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Pojok Kalijudan",
@@ -4256,7 +4256,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7137858885",
-              "addr:street": "Kalisari",
+              "addrstreet": "Kalisari",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Yamuri",
@@ -4275,7 +4275,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7138038285",
-              "addr:street": "Jalan Gubeng Masjid",
+              "addrstreet": "Jalan Gubeng Masjid",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Cak Pur",
@@ -4294,7 +4294,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7138147286",
-              "addr:street": "Jalan Banda",
+              "addrstreet": "Jalan Banda",
               "amenity": "cafe",
               "cuisine": "curry;coffee_shop",
               "name": "Warung Giras Pojok PJKA"
@@ -4312,7 +4312,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7144662387",
-              "addr:street": "Jalan Songoyudan",
+              "addrstreet": "Jalan Songoyudan",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Jempol",
@@ -4332,7 +4332,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7147640985",
               "addr:housenumber": "2a",
-              "addr:street": "Jalan Kupang Gunung Timur V Raya",
+              "addrstreet": "Jalan Kupang Gunung Timur V Raya",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Biru",
@@ -4351,7 +4351,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7147775385",
-              "addr:street": "Jalan Girilaya",
+              "addrstreet": "Jalan Girilaya",
               "amenity": "cafe",
               "cuisine": "friture;donut;coffee_shop",
               "name": "Warkop Mbak Lemu",
@@ -4370,7 +4370,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7150269185",
-              "addr:street": "Jalan Kaliasin Pompa",
+              "addrstreet": "Jalan Kaliasin Pompa",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Senpai"
@@ -4388,7 +4388,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7150269186",
-              "addr:street": "Jalan Plemahan Gang VI",
+              "addrstreet": "Jalan Plemahan Gang VI",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "internet_access": "wlan",
@@ -4407,7 +4407,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7150303385",
-              "addr:street": "Jalan Kedung Rukem IV",
+              "addrstreet": "Jalan Kedung Rukem IV",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Pandawa"
@@ -4425,7 +4425,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7150340285",
-              "addr:street": "Jalan Kedung Rukem IV",
+              "addrstreet": "Jalan Kedung Rukem IV",
               "amenity": "cafe",
               "cuisine": "friture;cake;donut;coffee_shop",
               "name": "Warkop Nuryah",
@@ -4444,7 +4444,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7155502185",
-              "addr:street": "Jalan Bunguran",
+              "addrstreet": "Jalan Bunguran",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Depot Ko San - Perhimpunan Xiang Qi Pasar Atom",
@@ -4464,7 +4464,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7157928885",
-              "addr:street": "Jalan Kedondong Kidul Gang 3",
+              "addrstreet": "Jalan Kedondong Kidul Gang 3",
               "amenity": "cafe",
               "cuisine": "friture;coffee_shop",
               "name": "Warkop Asik",
@@ -4483,7 +4483,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7157928985",
-              "addr:street": "Jalan Nyamplungan Belokan",
+              "addrstreet": "Jalan Nyamplungan Belokan",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Nyamplungan Balokan",
@@ -4502,7 +4502,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7157929085",
-              "addr:street": "Jalan Nyamplungan",
+              "addrstreet": "Jalan Nyamplungan",
               "amenity": "cafe",
               "cuisine": "cake;coffee_shop",
               "name": "Warkop Sarkam",
@@ -4522,7 +4522,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7158219585",
-              "addr:street": "Jalan Pandegiling",
+              "addrstreet": "Jalan Pandegiling",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -4542,7 +4542,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7158221986",
-              "addr:street": "Jalan Pandegiling",
+              "addrstreet": "Jalan Pandegiling",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Pancar",
@@ -4561,7 +4561,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7158258285",
-              "addr:street": "Jalan Tunjungan",
+              "addrstreet": "Jalan Tunjungan",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Simpang",
@@ -4580,7 +4580,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7158260585",
-              "addr:street": "Jalan Blauran",
+              "addrstreet": "Jalan Blauran",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Pojok Blauran",
@@ -4600,7 +4600,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7174515385",
               "addr:housenumber": 2,
-              "addr:street": "Jalan Veteran",
+              "addrstreet": "Jalan Veteran",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Kafeku",
@@ -4619,7 +4619,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7252030485",
-              "addr:street": "Jalan Margorukun II",
+              "addrstreet": "Jalan Margorukun II",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "opening_hours": "Mo-Su 05:00-18:00",
@@ -4639,7 +4639,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7256792485",
-              "addr:street": "Jalan Sukodono V",
+              "addrstreet": "Jalan Sukodono V",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Amari",
@@ -4660,7 +4660,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7256994887",
               "addr:housenumber": 30,
-              "addr:street": "Jalan Sidoyoso Wetan",
+              "addrstreet": "Jalan Sidoyoso Wetan",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -4679,7 +4679,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7275860085",
-              "addr:street": "Jalan Asem Raya",
+              "addrstreet": "Jalan Asem Raya",
               "amenity": "cafe",
               "cuisine": "indonesian;coffee_shop",
               "name": "Warkop Bu Umi",
@@ -4699,7 +4699,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7286990885",
-              "addr:street": "Jalan Tanjungsari IV",
+              "addrstreet": "Jalan Tanjungsari IV",
               "amenity": "cafe",
               "name": "Warkop Cita Rasa",
               "opening_hours": "Mo-Su 06:00-18:00"
@@ -4717,7 +4717,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7286991985",
-              "addr:street": "Jalan Tanjungsari IV",
+              "addrstreet": "Jalan Tanjungsari IV",
               "amenity": "cafe",
               "name": "Warkop Cita Rasa"
             },
@@ -4734,7 +4734,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7330332685",
-              "addr:street": "Jalan Mleto Gang Pasar",
+              "addrstreet": "Jalan Mleto Gang Pasar",
               "amenity": "cafe",
               "name": "Warkop Pak Yono",
               "opening_hours": "Mo-Su 05:00-17:00"
@@ -4752,7 +4752,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7797720685",
-              "addr:street": "Jalan Raya Benowo",
+              "addrstreet": "Jalan Raya Benowo",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop Cak Syaiful",
@@ -4772,7 +4772,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7797730885",
-              "addr:street": "Jalan Singapur",
+              "addrstreet": "Jalan Singapur",
               "amenity": "cafe",
               "name": "Warkop Murni",
               "opening_hours": "Mo-Su 07:00-22:00"
@@ -4790,7 +4790,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7824596487",
-              "addr:street": "Jalan Jojoran I",
+              "addrstreet": "Jalan Jojoran I",
               "amenity": "cafe",
               "cuisine": "tea;friture;donut;coffee_shop",
               "name": "Warkop Pak Sapik",
@@ -4809,7 +4809,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7857864985",
-              "addr:street": "Jalan Bulak Rukem Timur 2",
+              "addrstreet": "Jalan Bulak Rukem Timur 2",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "name": "Warkop 5758 Maju Mapan",
@@ -4829,7 +4829,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7874257285",
               "addr:housenumber": 47,
-              "addr:street": "Jalan Kebalen Barat",
+              "addrstreet": "Jalan Kebalen Barat",
               "amenity": "cafe",
               "cuisine": "friture;donut;coffee_shop",
               "name": "Warkop Tin",
@@ -4848,7 +4848,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7948007285",
-              "addr:street": "Jalan Raden Wijaya",
+              "addrstreet": "Jalan Raden Wijaya",
               "amenity": "cafe",
               "name": "Warkop 83 (Pasar Malam Kodam)",
               "opening_hours": "Mo-Su 17:00-23:00"
@@ -4867,7 +4867,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/7972072185",
               "addr:housenumber": 41,
-              "addr:street": "Jalan Kedung Baruk",
+              "addrstreet": "Jalan Kedung Baruk",
               "amenity": "cafe",
               "cuisine": "breakfast;coffee_shop;donut;friture",
               "diet:vegetarian": "yes",
@@ -4888,7 +4888,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7975327585",
-              "addr:street": "Jalan Sombo",
+              "addrstreet": "Jalan Sombo",
               "amenity": "cafe",
               "name": "Warkop Cak Di Rusun Sumbo",
               "opening_hours": "Mo-Su 05:00-21:00"
@@ -4906,7 +4906,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7983244585",
-              "addr:street": "Jalan Dupak Bangunsari Tengah",
+              "addrstreet": "Jalan Dupak Bangunsari Tengah",
               "amenity": "cafe",
               "cuisine": "cake;coffee_shop;donut;friture",
               "name": "Warkop Sakrun",
@@ -4925,7 +4925,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7987809885",
-              "addr:street": "Jalan Keputran",
+              "addrstreet": "Jalan Keputran",
               "amenity": "cafe",
               "cuisine": "cake;coffee_shop;friture",
               "name": "Warkop Agus",
@@ -4948,7 +4948,7 @@ var sbycafegeojson = {
               "addr:city": "Surabaya",
               "addr:housenumber": 45,
               "addr:postcode": 60118,
-              "addr:street": "Jalan Nginden Semolo",
+              "addrstreet": "Jalan Nginden Semolo",
               "amenity": "cafe",
               "cuisine": "coffee_shop;sandwich;chicken;asian",
               "description": "Basecamp17 adalah tempat berkumpul, tempat nongkrong yang asik. Gorengan akan menjadi teman, simbol kebersamaan, meriah, asik dinikmati bersama teman.",
@@ -4973,7 +4973,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/7996249986",
-              "addr:street": "Jalan Dupak Rukun Pasar Loak",
+              "addrstreet": "Jalan Dupak Rukun Pasar Loak",
               "amenity": "cafe",
               "cuisine": "cake;chicken;coffee_shop;curry;friture;local",
               "name": "Warung Pojok Maimona",
@@ -4992,7 +4992,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/8001751587",
-              "addr:street": "Jalan Sumur Welut",
+              "addrstreet": "Jalan Sumur Welut",
               "amenity": "cafe",
               "cuisine": "coffee_shop;donut;friture",
               "name": "Warkop Alin Gondrong",
@@ -5011,7 +5011,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/8008155085",
-              "addr:street": "Jalan Ngagel Rejo Utara VI",
+              "addrstreet": "Jalan Ngagel Rejo Utara VI",
               "amenity": "cafe",
               "name": "Warkop Subur",
               "opening_hours": "Mo-Su 05:00-16:00"
@@ -5029,7 +5029,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/8436709717",
-              "addr:street": "Jalan Gili VI",
+              "addrstreet": "Jalan Gili VI",
               "amenity": "cafe",
               "cuisine": "asian;breakfast;cake;chicken;coffee_shop;friture;local",
               "name": "Warkop Mbak Jum",
@@ -5048,7 +5048,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/8495734017",
-              "addr:street": "Jalan Songoyudan",
+              "addrstreet": "Jalan Songoyudan",
               "amenity": "cafe",
               "name": "Warkop Pak To",
               "opening_hours": "Mo-Sa 05:00-16:00"
@@ -5066,7 +5066,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/8502106017",
-              "addr:street": "Jalan Gresik",
+              "addrstreet": "Jalan Gresik",
               "amenity": "cafe",
               "name": "Warkop Gadex",
               "opening_hours": "Mo-Su 06:00-11:00"
@@ -5084,7 +5084,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/8508756917",
-              "addr:street": "Jalan Dupak Magersari III",
+              "addrstreet": "Jalan Dupak Magersari III",
               "amenity": "cafe",
               "name": "Warkop Pak Ponirin",
               "opening_hours": "Mo-Su 06:00-20:00"
@@ -5103,7 +5103,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/8555556719",
               "addr:housenumber": 77,
-              "addr:street": "Jalan Sidorame",
+              "addrstreet": "Jalan Sidorame",
               "amenity": "cafe",
               "name": "Abu Mahri (Kopi Kampoeng Arab)",
               "name:id": "Abu Mahri",
@@ -5122,7 +5122,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/8568915217",
-              "addr:street": "Jalan Semarang",
+              "addrstreet": "Jalan Semarang",
               "amenity": "cafe",
               "cuisine": "cake;coffee_shop;friture",
               "name": "Warkop Bagio",
@@ -5142,7 +5142,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/9012973317",
-              "addr:street": "Jalan Kenjeran IV",
+              "addrstreet": "Jalan Kenjeran IV",
               "amenity": "cafe",
               "cuisine": "cake;coffee_shop",
               "name": "Warkop Palapa",
@@ -5162,7 +5162,7 @@ var sbycafegeojson = {
             "properties": {
               "@id": "node/9152502969",
               "addr:city": "Surabaya",
-              "addr:street": "Gunung Anyar",
+              "addrstreet": "Gunung Anyar",
               "amenity": "cafe",
               "cuisine": "coffee_shop",
               "internet_access": "wlan",
@@ -5184,7 +5184,7 @@ var sbycafegeojson = {
             "type": "Feature",
             "properties": {
               "@id": "node/9218740417",
-              "addr:street": "Jalan Rusun Dupak Bangunrejo II",
+              "addrstreet": "Jalan Rusun Dupak Bangunrejo II",
               "amenity": "cafe",
               "cuisine": "coffee_shop;friture",
               "internet_access": "wlan",
@@ -5206,11 +5206,11 @@ var sbycafegeojson = {
 var layerGroup = L.geoJSON(sbycafegeojson, {
     onEachFeature: function (feature, layer) {
       layer.bindPopup(
-          '<h2><b>'+feature.properties.name+'</b></h2>'+
+          '<h2><b><center>'+feature.properties.name+'</center></b></h2>'+
+          "<h5><b>Address</b></h5>"+
+          '<h5>'+feature.properties.addrstreet+'</h5>'+
           "<h5><b>Opening Hours</b></h5>"+
-          '<h5>'+feature.properties.opening_hours+'</h5>'+
-          "<h5><b>Coordinate</b></h5>"+
-          '<h5>'+feature.properties.coordinates+'</h5>');
+          '<h5>'+feature.properties.opening_hours+'</h5>');
         // layer.bindPopup("<h1>TEST</h1>")
     }
   }).addTo(mymap);
