@@ -5199,20 +5199,22 @@ var sbycafegeojson = {
 var layerGroup = L.geoJSON(sbycafegeojson, {
     onEachFeature: function (feature, layer) {
       layer.bindPopup(
-          "<h2><b><center>"+feature.properties.name+"</center></b></h2>"+
+          "<h3><b><center>"+feature.properties.name+"</center></b></h3>"+
           "<h5><b>Address</b></h5>"+
           "<h5>"+feature.properties.addrstreet+"</h5>"+
           "<h5><b>Opening Hours</b></h5>"+
           "<h5>"+feature.properties.opening_hours+"</h5>"+
-          "<button onclick='return toHere("+feature.geometry.coordinates+")'>Show Navigation</button>");
+          "<button onclick='return fromHere("+feature.geometry.coordinates+")'>Set as Starting Point</button>"+
+          "<br>"+
+          "<button onclick='return toHere("+feature.geometry.coordinates+")'>Set as End Point</button>");
         // layer.bindPopup("<h1>TEST</h1>")
     }
   }).addTo(map);
 
 var control = L.Routing.control(L.extend(window.lrmConfig, {
 	waypoints: [
-		L.latLng(-7.256758, 112.750570),
-		L.latLng(-7.356758, 112.550570)
+		L.latLng(0, 0),
+		L.latLng(0, 0)
 	],
 	geocoder: L.Control.Geocoder.nominatim(),
 	routeWhileDragging: true,
@@ -5234,4 +5236,9 @@ L.Routing.errorControl(control).addTo(map);
 function toHere(lat, Lng){
     var latLng = L.latLng(Lng, lat);
     control.spliceWaypoints(control.getWaypoints().length - 1, 1, latLng);
+}
+
+function fromHere(lat, Lng){
+    var latLng = L.latLng(Lng, lat);
+    control.spliceWaypoints(0, 1, latLng);;
 }
