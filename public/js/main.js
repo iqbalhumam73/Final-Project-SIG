@@ -2,13 +2,17 @@ const mapboxKey ='pk.eyJ1IjoiYXN3aWZ0Y2VjdHVyZSIsImEiOiJja3cydG56bzEwNXFxMnVtbnp
 
 const mymap = L.map('map').setView([-7.256758, 112.750570], 13);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: mapboxKey
+// L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+//     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+//     maxZoom: 18,
+//     id: 'mapbox/streets-v11',
+//     tileSize: 512,
+//     zoomOffset: -1,
+//     accessToken: mapboxKey
+// }).addTo(mymap);
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 
 var sbycafegeojson = {
@@ -5210,7 +5214,8 @@ var layerGroup = L.geoJSON(sbycafegeojson, {
           "<h5><b>Address</b></h5>"+
           '<h5>'+feature.properties.addrstreet+'</h5>'+
           "<h5><b>Opening Hours</b></h5>"+
-          '<h5>'+feature.properties.opening_hours+'</h5>');
+          '<h5>'+feature.properties.opening_hours+'</h5>'+
+          '<button class=btn-btn-success>Show Navigation</button>');
         // layer.bindPopup("<h1>TEST</h1>")
     }
   }).addTo(mymap);
@@ -5219,8 +5224,6 @@ var layerGroup = L.geoJSON(sbycafegeojson, {
 // L.geoJSON(sbycafegeojson).addTo(mymap).bindPopup("gapake template")
 // L.geoJSON(sbycafegeojson).addTo(mymap).bindPopup(template)
 // L.bindPopup()
-
-let template = `test template cok`
 
 
 // fetch('https://cdn.glitch.me/1f433756-e45c-40f0-b559-1e8c6553c5c4%2Fsbycafe.geojson?v=1637741159110')
@@ -5233,3 +5236,11 @@ let template = `test template cok`
 //  })
 
 // marker.bindPopup('hello world')
+
+L.Routing.control({
+  waypoints: [
+    L.latLng(-7.2737522, 112.7954887),
+    L.latLng(-7.2580589, 112.7950862)
+  ],
+  routeWhileDragging: true
+}).addTo(mymap);

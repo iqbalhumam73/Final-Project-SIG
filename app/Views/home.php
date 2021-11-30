@@ -12,9 +12,26 @@
 <!-- Leaflet CSS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 
+<!-- Leaflet Routing Machine -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+<link rel="stylesheet" href="js/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+<script src="js/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
 
 
-
+<!-- <title>Leaflet OSRM Example</title> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+<link rel="stylesheet" href="js/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+<link rel="stylesheet" href="css/index.css" />
 
 <style>
     body {
@@ -27,7 +44,7 @@
 
     #map {
         height: 600px;
-        width: 1100px;
+        width: 1600px;
         margin: 5rem auto;
     }
 </style>
@@ -40,7 +57,7 @@
             <!-- <a href="/" class="w3-bar-item w3-button w3-padding-large">Welcome Message</a> -->
             <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Home</a>
             <!-- <a href="/maps" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Maps</a> -->
-            <a href="/coffeeshoplist" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Coffee Shop</a>
+            <a href="/home2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Home2</a>
             <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
         </div>
     </div>
@@ -76,16 +93,23 @@
         <div id="map"></div>
 
         <!-- main.js for mapbox -->
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="js/main.js"></script>
+        <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="js/main.js"></script> -->
+        <br><br>
+
+        <div id="map" class="map"></div>
+        <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+        <script src="js/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+        <script src="js/Control.Geocoder.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/index.js"></script>
 
         <!-- End of Map Section -->
 
     </div>
     <!-- End Page Content -->
 
-    <!-- Image of location/map -->
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
