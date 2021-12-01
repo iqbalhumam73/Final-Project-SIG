@@ -3,34 +3,23 @@
 <title>Coffee Shop Sby</title>
 <meta charset="UTF-8">
 
-<!-- CSS Template for front end-->
+<!-- CSS Template for front end -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Leaflet CSS -->
+<!-- Basic Leaflet CSS and JS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
 
 <!-- Leaflet Routing Machine -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
-
 <link rel="stylesheet" href="js/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
-
 <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-
 <script src="js/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
 
-<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" /> -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
-<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-
-
-<!-- <title>Leaflet OSRM Example</title> -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
-<link rel="stylesheet" href="js/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+<!-- Javascript for maps -->
 <link rel="stylesheet" href="css/index.css" />
 
 <style>
@@ -88,8 +77,6 @@
 
         <!-- Map Section -->
         <div id="map"></div>
-
-        <!-- main.js for mapbox -->
         <div id="map" class="map"></div>
         <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
         <script src="js/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
@@ -101,8 +88,6 @@
 
     </div>
     <!-- End Page Content -->
-
-
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
