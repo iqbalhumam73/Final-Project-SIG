@@ -54,10 +54,7 @@
     <div class="w3-top">
         <div class="w3-bar w3-black w3-card">
             <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-            <!-- <a href="/" class="w3-bar-item w3-button w3-padding-large">Welcome Message</a> -->
             <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Home</a>
-            <!-- <a href="/maps" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Maps</a> -->
-            <a href="/home2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Home2</a>
             <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
         </div>
     </div>
@@ -93,9 +90,6 @@
         <div id="map"></div>
 
         <!-- main.js for mapbox -->
-        <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="js/main.js"></script> -->
-
         <div id="map" class="map"></div>
         <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
         <script src="js/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
@@ -137,7 +131,7 @@
                 myIndex = 1
             }
             x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 4000);
+            setTimeout(carousel, 3000);
         }
 
         // Used to toggle the menu on small screens when clicking on the menu button
