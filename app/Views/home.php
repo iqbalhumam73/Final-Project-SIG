@@ -3,7 +3,7 @@
 <title>Coffee Shop Sby</title>
 <meta charset="UTF-8">
 
-<!-- CSS Template -->
+<!-- CSS Template for front end-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -21,7 +21,7 @@
 
 <script src="js/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" /> -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
 <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
@@ -44,7 +44,7 @@
 
     #map {
         height: 600px;
-        width: 1600px;
+        width: 1500px;
         margin: 5rem auto;
     }
 </style>
@@ -95,7 +95,6 @@
         <!-- main.js for mapbox -->
         <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script src="js/main.js"></script> -->
-        <br><br>
 
         <div id="map" class="map"></div>
         <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>

@@ -1,9 +1,14 @@
+
+// View Map
 var map = L.map('map').setView([-7.256758, 112.750570], 13);;
 
+// Load Map OSM
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+
+// API All Cafe @ Surabaya
 var sbycafegeojson = {
     "type": "FeatureCollection",
     "features": [
@@ -5196,6 +5201,7 @@ var sbycafegeojson = {
     ]
 }
 
+// Load Cafe @ Surabaya API & Create Pop Up for each
 var layerGroup = L.geoJSON(sbycafegeojson, {
     onEachFeature: function (feature, layer) {
       layer.bindPopup(
@@ -5207,17 +5213,17 @@ var layerGroup = L.geoJSON(sbycafegeojson, {
           "<button onclick='return fromHere("+feature.geometry.coordinates+")'>Set as Starting Point</button>"+
           "<br>"+
           "<button onclick='return toHere("+feature.geometry.coordinates+")'>Set as End Point</button>");
-        // layer.bindPopup("<h1>TEST</h1>")
     }
   }).addTo(map);
 
+// Right Routing Window  
 var control = L.Routing.control(L.extend(window.lrmConfig, {
 	waypoints: [
 		L.latLng(0, 0),
 		L.latLng(0, 0)
 	],
 	geocoder: L.Control.Geocoder.nominatim(),
-	routeWhileDragging: true,
+	routeWhileDragging: false,
 	reverseWaypoints: true,
 	showAlternatives: true,
 	altLineOptions: {
@@ -5228,11 +5234,12 @@ var control = L.Routing.control(L.extend(window.lrmConfig, {
 		]
 	}
 }))
-
 control.addTo(map);
 
+// Error Notification
 L.Routing.errorControl(control).addTo(map);
 
+// Function set starting and end point
 function toHere(lat, Lng){
     var latLng = L.latLng(Lng, lat);
     control.spliceWaypoints(control.getWaypoints().length - 1, 1, latLng);
