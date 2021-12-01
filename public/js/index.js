@@ -5212,7 +5212,9 @@ var layerGroup = L.geoJSON(sbycafegeojson, {
           "<h5>"+feature.properties.opening_hours+"</h5>"+
           "<button onclick='return fromHere("+feature.geometry.coordinates+")'>Set as Starting Point</button>"+
           "<br>"+
-          "<button onclick='return toHere("+feature.geometry.coordinates+")'>Set as End Point</button>");
+          "<button onclick='return toHere("+feature.geometry.coordinates+")'>Set as End Point</button>"+
+          "<br>"+
+          "<button onclick='return fromCurrent("+feature.geometry.coordinates+")'>Direction from Current Location</button>");
     }
   }).addTo(map);
 
@@ -5248,4 +5250,58 @@ function toHere(lat, Lng){
 function fromHere(lat, Lng){
     var latLng = L.latLng(Lng, lat);
     control.spliceWaypoints(0, 1, latLng);;
+}
+
+let curlat;
+let curlong;
+
+function fromCurrent(lat, Lng){
+  var latLng = L.latLng(Lng, lat);
+  control.spliceWaypoints(control.getWaypoints().length - 1, 1, latLng);
+
+  var latLng = L.latLng(curlat, curlong);
+  control.spliceWaypoints(0, 1, latLng);;
+
+}
+
+
+if (!navigator.geolocation) {
+  console.log("Your browser doesn't support geolocation feature!");
+} else {
+  navigator.geolocation.getCurrentPosition(getPosition);
+}
+
+var marker, circle, lat, long, accuracy;
+
+console.log("Success")
+
+function getPosition(position) {
+  // console.log(position)
+  curlat = position.coords.latitude;
+  curlong = position.coords.longitude;
+  accuracy = position.coords.accuracy;
+
+  if (marker) {
+    map.removeLayer(marker);
+  }
+
+  if (circle) {
+    map.removeLayer(circle);
+  }
+
+  marker = L.marker([curlat, curlong]);
+  circle = L.circle([curlat, curlong], { radius: accuracy });
+
+  var featureGroup = L.featureGroup([marker, circle]).addTo(map);
+
+  map.fitBounds(featureGroup.getBounds());
+
+  console.log(
+    "Your coordinate is: Lat: " +
+      curlat +
+      " Long: " +
+      curlong +
+      " Accuracy: " +
+      accuracy
+  );
 }
